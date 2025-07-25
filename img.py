@@ -13,7 +13,7 @@ app.add_middleware(
 
 
 def dummy_classifier(image_bytes):
-    labels = ['pizza', 'burger', 'idli', 'rice', 'dosa', 'superman', 'teacher']
+    labels = ['Akash', 'Amulya', 'Prajwal', 'Prashanth']
     return random.choice(labels)
 
 
